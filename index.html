@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+</head>
+<body>
+    <!--Titulo junto o comando para deixa-lo no centro.-->
+    <div style="text-align: center;">
+        <h1>Review Do Jogo: Tetris</h1>
+        <h2>Um Jogo Atemporal</h2>
+        <hr>
+    </div>
+    
+    <div>
+        <!--Paragrafo dando uma breve explicação sobre o jogo-->
+        <p>Tetris é um jogo clássico que conquistou milhões de jogadores ao redor do mundo. Com seu gameplay simples mas viciante, ele se tornou um dos jogos mais populares de todos os tempos. Sua maior popularidade se deve pelo seu lançamento junto ao Game Boy, que permitiu que os jogadores levassem o jogo a qualquer lugar, sendo um jogo para os mais jovens e para os mais velhos.
+        </p>
+    <hr>
+    </div>
+
+    <br>
+
+    <!--Comando junto a div para adicionar mais imagens em um unico local da tela.-->
+    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1200px; margin: 0 auto;">
+    <!-- Primeira imagem da esquerda -->
+    <img src="lLaranja.png" alt="Imagem Esquerda" width="100">
+
+    <!-- Segunda imagem da esquerda -->
+    <img src="vermelhinho.png" alt="Imagem Esquerda" width="70">
+
+    <!-- Imagem do meio -->
+    <img src="tetris.png" alt="Imagem do Meio" width="500">
+
+    <!-- Primeira imagem da direita -->
+    <img src="roxinho.png" alt="Imagem Direita" width="100">
+
+    <!--Segunda imagem da direita -->
+    <img src="conjuntinhoBr.png" alt="Imagem Direita" width="100">
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!--Lista não ordenada mostrando os detalhes principais.-->
+    <div>
+        <h3>Detalhes principais :</h3>
+        <ul>
+            <li>Criador Original: Alexey Pajitnov</li>
+            <li>Empresa Dona: The Tetris Company</li>
+            <li>Ano de Lançamento: 1984</li>
+            <li>Gênero: Puzzle</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div>
+        <!--Lista ordenada mostrando os motivos do porque ser um jogo atemporal.-->
+        <h3>Porque é um dos maiores titulos da historia:</h3>
+
+        <ol>
+            <li>Gameplay Simples e Viciante: A mecânica de empilhar blocos é fácil de entender, mas difícil de dominar.</li>
+            <br>
+            <li>Disponibilidade em Diversas Plataformas: Desde consoles clássicos até dispositivos móveis, Tetris está disponível em praticamente todas as plataformas de jogos.</li>
+            <br>
+            <li>Impacto Cultural: Tetris se tornou um ícone cultural, aparecendo em filmes, programas de TV e sendo referenciado em diversas mídias.</li>
+            <br>
+            <li>Inovação Contínua: Com várias versões e modos de jogo ao longo dos anos, Tetris continua a evoluir e atrair novos jogadores.</li>
+            <br>
+            <li>Alcançou uma grande quantidade de pessoas no lançamento do GameBoy da Nintendo, pois ele vinha junto ao console.</li>
+        </ol>
+        
+    </div>
+
+    <div>
+        <h3>Review:</h3>
+        <p>Tetris é uma franquia muito grande de jogos, com muitas versões, mas seu maior sucesso nas críticas foi com o jogo: Tetris Effect da plataforma PlayStation 4, com 89 de pontuação da critica especializada e 79 dos usuarios.
+        <br>
+        Link para a página do jogo no Metacritic:
+        </p>
+
+        <!--Comando para adicionar um link, para encaminhar a um site da review do jogo.-->
+        <a href="https://www.metacritic.com/game/tetris-effect/" target="_blank">Metacritic: Tetris Effect</a>
+    </div>
+
+
+    <div>
+        <!--comandos usados para a tabla incluindo o thead, tbody e tfoot.-->
+        <h3>Avaliação:</h3>
+        <table border = "1">
+            <thead>
+                <tr>
+                    <th>Critérios</th>
+                    <th>Notas</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Jogabilidade</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Trilha Sonora</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Visual</td>
+                    <td>8,5</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Média Geral</td>
+                    <td>8,5</td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+    </div>
+
+    <br>
+    <hr>
+
+     <div>
+        <!--div voltada para labels que incluem inputs para nome, email e nota.-->
+        <h3>Deixe sua opinião sobre o jogo:</h3>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+            <br>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <br>
+            <br>
+            <label for="nota">Qual nota você daria ao jogo:</label><br>
+            <select>
+                <option value="excelente">Excelente (9-10)</option>
+                <option value="bom">Bom (7-8)</option>
+                <option value="regular">Regular (5-6)</option>
+                <option value="ruim">Ruim (Abaixo de 5)</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </div>
+</body>
+</html>
